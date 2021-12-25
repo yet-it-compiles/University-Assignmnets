@@ -19,15 +19,24 @@ text = "Backend (Java) -> Frontend (Python, HTML, CSS)"
 
 def first_test():
     """ docstring """
-    storage.append(people[0])
-    storage.append(people[1])
-    storage.append(people[2])
+    a = 2+2
+    b = 3+3
+    c = 4+4
+
+    return a, b, c
 
 
 def second_test():
     """ docstring """
-    for each_person in people:
-        storage.append(each_person)
+    a = 2+2
+    b = 3+3
+    c = 4+4
+
+    storage.append(a)
+    storage.append(b)
+    storage.append(c)
+
+    return storage
 
 
 if __name__ == '__main__':
@@ -42,3 +51,12 @@ if __name__ == '__main__':
     time_delta = time_delta1 - time_delta2
 
     print("The difference between Test 1 and Test 2: ", time_delta)
+
+
+""" =========================================Yielding Results======================================================= """
+
+"""
+Return vs. Yield - Return is faster
+
+
+"""
