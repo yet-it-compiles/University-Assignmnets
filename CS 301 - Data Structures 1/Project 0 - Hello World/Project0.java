@@ -1,5 +1,5 @@
 /*** Project: Project0   
- * Completion time: 0 hours 10 minutes                                    *
+ * Completion time: 0 hours 3 minutes                                    *
  * Honor Code: “I pledge that I have neither given nor received help from 
  * anyone* other than the instructor or the TAs for all program components 
  * included here.”*/
