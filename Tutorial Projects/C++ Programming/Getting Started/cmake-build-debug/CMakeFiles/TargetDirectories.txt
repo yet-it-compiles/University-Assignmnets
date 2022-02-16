@@ -1,3 +1,0 @@
-C:/Users/bmxfr/OneDrive/Developer Files/Tutorial Projects/C++ Programming/Getting Started/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/bmxfr/OneDrive/Developer Files/Tutorial Projects/C++ Programming/Getting Started/cmake-build-debug/CMakeFiles/Getting_Started.dir
-C:/Users/bmxfr/OneDrive/Developer Files/Tutorial Projects/C++ Programming/Getting Started/cmake-build-debug/CMakeFiles/edit_cache.dir
