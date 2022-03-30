@@ -1,0 +1,37 @@
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\bin\Debug\net5.0-windows\HelloWorld.exe
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\bin\Debug\net5.0-windows\HelloWorld.deps.json
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\bin\Debug\net5.0-windows\HelloWorld.runtimeconfig.json
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\bin\Debug\net5.0-windows\HelloWorld.runtimeconfig.dev.json
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\bin\Debug\net5.0-windows\HelloWorld.dll
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\bin\Debug\net5.0-windows\ref\HelloWorld.dll
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\bin\Debug\net5.0-windows\HelloWorld.pdb
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\obj\Debug\net5.0-windows\HelloWorld.Form1.resources
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\obj\Debug\net5.0-windows\HelloWorld.vbproj.GenerateResource.cache
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\obj\Debug\net5.0-windows\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\obj\Debug\net5.0-windows\HelloWorld.AssemblyInfoInputs.cache
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\obj\Debug\net5.0-windows\HelloWorld.AssemblyInfo.vb
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\obj\Debug\net5.0-windows\HelloWorld.vbproj.CoreCompileInputs.cache
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\obj\Debug\net5.0-windows\HelloWorld.dll
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\obj\Debug\net5.0-windows\ref\HelloWorld.dll
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\obj\Debug\net5.0-windows\HelloWorld.pdb
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\obj\Debug\net5.0-windows\HelloWorld.genruntimeconfig.cache
+C:\Users\bmxfr\OneDrive\Developer Files\Completed Projects\Unsworth-Lab1\HelloWorld\obj\Debug\net5.0-windows\HelloWorld.vbproj.AssemblyReference.cache
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\bin\Debug\net5.0-windows\HelloWorld.exe
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\bin\Debug\net5.0-windows\HelloWorld.deps.json
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\bin\Debug\net5.0-windows\HelloWorld.runtimeconfig.json
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\bin\Debug\net5.0-windows\HelloWorld.runtimeconfig.dev.json
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\bin\Debug\net5.0-windows\HelloWorld.dll
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\bin\Debug\net5.0-windows\ref\HelloWorld.dll
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\bin\Debug\net5.0-windows\HelloWorld.pdb
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\obj\Debug\net5.0-windows\HelloWorld.vbproj.AssemblyReference.cache
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\obj\Debug\net5.0-windows\HelloWorld.Form1.resources
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\obj\Debug\net5.0-windows\HelloWorld.Resources.resources
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\obj\Debug\net5.0-windows\HelloWorld.vbproj.GenerateResource.cache
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\obj\Debug\net5.0-windows\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\obj\Debug\net5.0-windows\HelloWorld.AssemblyInfoInputs.cache
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\obj\Debug\net5.0-windows\HelloWorld.AssemblyInfo.vb
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\obj\Debug\net5.0-windows\HelloWorld.vbproj.CoreCompileInputs.cache
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\obj\Debug\net5.0-windows\HelloWorld.dll
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\obj\Debug\net5.0-windows\ref\HelloWorld.dll
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\obj\Debug\net5.0-windows\HelloWorld.pdb
+C:\Users\bmxfr\OneDrive\Developer Files\Current Project\CS 105 - Basis of Logical Computing\Unsworth-Lab 2\obj\Debug\net5.0-windows\HelloWorld.genruntimeconfig.cache
