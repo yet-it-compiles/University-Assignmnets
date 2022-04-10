@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 2: Exercise 4</title>
+    <meta name="read-only" content="true">
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+    <meta name="author" content="none">
+    <script type="text/javascript" src="jquery/js/jquery-1.9.0.min.js"></script>
+    <style>
+
+      #container {
+        display: block;
+      }
+
+
+      #draw_buttons {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+      }
+      
+
+      
+    </style>
+    
+    <script>
+    $(document).ready(function() {
+
+      /* Step 1: Your code goes here */
+
+      $("#button_draw_triangle").click(function() {
+        /* Your code goes here for Step 2 */
+        
+      });
+
+      $("#button_draw_rotated_triangle").click(function() {
+        /* Your code goes here for Step 3*/
+        
+      });
+
+      $("#button_clear_canvas").click(function() {
+        /* Your code goes here for Step 4 */
+
+      });
+      
+    });
+    </script>
+  </head>
+  <body>
+    <h2>Manipulate the Canvas</h2>
+    <canvas id="myCanvas" width="300" height="300" style="border:1px solid #000000;"> </canvas>
+    
+
+    <div id="draw_buttons">
+      <button id="button_draw_triangle">Draw Triangle</button>
+      <button id="button_draw_rotated_triangle">Draw Rotated Triangle</button>
+      <button id="button_clear_canvas">Clear Canvas</button>
+    </div>
+
+  </body>
+</html>
