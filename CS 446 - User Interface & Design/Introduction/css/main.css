@@ -2,7 +2,7 @@
     font-family: Georgia, serif;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    color: #800000;
+    color: hsl(0,100%,25%);
     background-color: #adcaf8;
     padding: 10px;
 }
@@ -22,21 +22,17 @@
 }
 
 .currentClasses {
-    color: #32a332;
+    color: hsl(120,53%,42%);
 }
 
 .secondStyle {
     padding: 0 0 0 10px;
 }
 
-table, th, td {
+table, th, td, body {
     border: 1px solid black;
 }
 
 tr:nth-child(even) {
-    background-color: #d8d8d8;
-}
-
-body {
-    border: 1px solid black;
+    background-color: hsl(0,0%,85%);
 }
