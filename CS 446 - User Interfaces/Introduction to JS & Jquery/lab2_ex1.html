@@ -5,6 +5,7 @@
     <meta name="read-only" content="true">
     <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
     <meta name="author" content="none">
+
     <style>
       #color_change {
         border: 1px solid;
@@ -16,11 +17,16 @@
     <script type="text/javascript" src="jquery/js/jquery-1.9.0.min.js"></script>
     
     <script>
+
     $(document).ready(function() {
 
-      /* Your code goes here */
+      let button = $("#button_change");
+      $(button).click(function() {
+        let inputValue = $("#input_color").val();
+        let element = $(".cow_color");
+        $(element).html(inputValue);
+      });
 
-      
     });
     </script>
   </head>
