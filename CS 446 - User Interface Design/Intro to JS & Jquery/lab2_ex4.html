@@ -26,16 +26,25 @@
     <script>
     $(document).ready(function() {
 
-      /* Step 1: Your code goes here */
+      var canvas = document.getElementById("myCanvas");
+      var ctxt = canvas.getContext('2d');
 
       $("#button_draw_triangle").click(function() {
-        /* Your code goes here for Step 2 */
-        
+        ctxt.fillStyle   = '#f00';
+        ctxt.strokeStyle = '#000';
+        ctxt.lineWidth   = 3;
+        ctxt.closePath();
+        ctxt.fill();
+        ctxt.stroke();
+
       });
 
       $("#button_draw_rotated_triangle").click(function() {
-        /* Your code goes here for Step 3*/
+        ctxt.fillStyle   = '#f00';
+        ctxt.strokeStyle = '#000';
+        ctxt.lineWidth   = 3;
         
+
       });
 
       $("#button_clear_canvas").click(function() {
