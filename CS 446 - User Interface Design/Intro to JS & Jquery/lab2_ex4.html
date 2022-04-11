@@ -33,6 +33,12 @@
         ctxt.fillStyle   = '#f00';
         ctxt.strokeStyle = '#000';
         ctxt.lineWidth   = 3;
+
+        ctxt.beginPath();
+        ctxt.moveTo(60, 240);
+        ctxt.lineTo(240, 240);
+        ctxt.lineTo(150, 60);
+
         ctxt.closePath();
         ctxt.fill();
         ctxt.stroke();
@@ -43,8 +49,10 @@
         ctxt.fillStyle   = '#f00';
         ctxt.strokeStyle = '#000';
         ctxt.lineWidth   = 3;
+
         ctxt.translate(canvas.width / 2, canvas.height / 2);
         ctxt.rotate(Math.PI / 4);
+
         ctxt.beginPath();
         ctxt.moveTo(-90, 90);
         ctxt.lineTo(90, 90);
@@ -54,10 +62,15 @@
         ctxt.fill();
         ctxt.stroke();
 
+        // add this line of code before you apply transformations
+        ctxt.save();
+// add this line of code after you have drawn the triangle
+        ctxt.restore();
+
       });
 
       $("#button_clear_canvas").click(function() {
-        /* Your code goes here for Step 4 */
+        ctxt.clearRect(0, 0, canvas.width, canvas.height);
 
       });
       
