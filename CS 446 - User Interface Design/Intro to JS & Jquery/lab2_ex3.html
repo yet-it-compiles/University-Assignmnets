@@ -30,12 +30,53 @@
         margin-top: 2px;
       }
 
-      /* Step 2: Your CSS code goes here */
-      
-      /* Step 3: Your CSS code goes here */
+      #selectable .ui-selecting {
+        background: #FECA40;
+      }
 
-      /* Step 4: Your CSS code goes here */
-      
+      #selectable .ui-selected {
+        background: #F39814;
+        color: white;
+      }
+
+      #selectable {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 60%;
+      }
+
+      #selectable li {
+        margin: 3px;
+        padding: 0.4em;
+        font-size: 1.0em;
+        height: 12px;
+      }
+
+      #sortable {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 60%;
+      }
+      #sortable li {
+        margin: 0 3px 3px 3px;
+        padding: 0.4em;
+        padding-left: 1.5em;
+        font-size: 1.0em;
+        height: 12px;
+      }
+
+      #sortable li span {
+        position: absolute;
+        margin-left: -1.3em;
+      }
+
+      .color_swatch{
+        height: 50px;
+        width: 50px;
+      }
+
     </style>
     
     <script>
@@ -43,11 +84,29 @@
 
       $("#date").datepicker({minDate:-14, maxDate: 14});
 
-      /* Step 2: Your js code goes here */
+      $("#selectable").selectable();
+      $(".ui-selected").text()
 
-      /* Step 3: Your js code goes here */
+      $("#sortable").sortable();
+      $("#sortable").disableSelection();
 
-      /* Step 4: Your js code goes here */
+      $(document).tooltip({
+        items: "[title], [class]",
+        content: function() {
+          var element = $(this);
+          if (element.is("[title]")){
+            return element.attr("title");
+          }
+          if (element.is("[class]")){
+            if (element.attr("class") === "ui-state-default") {
+              var text = element.text(); //in this case, will be the desired color
+              return "<div class='color_swatch' style='background:" + text + "'></div>"
+                      ;
+            }
+          }
+      }
+
+        });
 
     });
     </script>
@@ -65,33 +124,35 @@
     </div>
     <div id="year_input">
 	<h3>Are you enrolled as an undergraduate or a graduate?</h3>
-      <input type="radio" name="enroll_year" id="ugrad" value="ugrad"> 
-      <label for="ugrad">Undergraduate</label>
-      <input type="radio" name="enroll_year" id="grad" value="grad"> 
-      <label for="grad">Graduate </label>
 
-      <!-- Step 2: Your HTML here -->
+
+      <ol id="selectable">
+        <li class="ui-widget-content" title="taking 6.813, doesn't have to do RS assignment
+s">Undergraduate</li>
+        <li class="ui-widget-content" title="taking 6.831, required to do RS assignments">Graduate</li>
+      </ol>
     </div>
 
     <div id="color_input">
       <!-- Comment out instruction when you finish step 3 -->
-      <h3>Rank the colors listed from your most favorite (1) to your least favorite (5). Be sure to only use each ranking once.</h3>
-      
-      <input type="text" class="rank_color" id="red" />
-      <label for="red">#ff0000</label><br/>
-      <input type="text" class="rank_color" id="blue" />
-      <label for="blue">#0000ff</label><br/>
-      <input type="text" class="rank_color" id="hot_pink" />
-      <label for="hot_pink">#ff00b3</label><br/>
-      <input type="text" class="rank_color" id="mustard" />
-      <label for="mustard">#ded447</label><br/>
-      <input type="text" class="rank_color" id="dark_green" />
-      <label for="dark_green">#125e18</label><br/>
+      <h3>Rank the colors listed from your most favorite to your least favorite:</h3>
 
-      <!-- Step 3: Your HTML here -->
-      <!-- Uncomment instruction when you finish step 3 -->
-      <!--<h3>Rank the colors listed from your most favorite to your least favorite:</h3>-->
-      
+      <ul id="sortable">
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+          #ff0000</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+          #0000ff</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+          #ff00b3</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+          #ded447</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+          #125e18</li>
+      </ul>
+
+
+
+
     </div>
 
   </body>
