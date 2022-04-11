@@ -81,7 +81,13 @@
       });
 
       $("#button_add_box").click(function() {
-        /* Your code goes here for Step 4 */
+        var new_box = document.createElement('div');
+        var existingBoxes = $(".box").length;
+        var new_id = existingBoxes+1;
+        $(new_box).attr("id", "box"+new_id);
+        $(new_box).addClass("box");
+        $(new_box).addClass("outlined");
+        $("#boxes").append(new_box);
 
       });
 
