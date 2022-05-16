@@ -31,6 +31,8 @@ function conditionalSwitchPractice() {
     }
 }
 
+let arrayOfNumbers = [1,2,3,4,5,6,7];
+let dictOfNumbers = {first: 1, second: 2, third: 3};
 /**
  * Simple function which practices the concept of the for of loop
  *
@@ -38,8 +40,6 @@ function conditionalSwitchPractice() {
  * The for/of loop works with iterable objects.
  */
 function conditionalForOfLoopPractice() {
-    let arrayOfNumbers = [1,2,3,4,5,6,7];
-    let dictOfNumbers = {first: 1, second: 2, third: 3}
     let sum1 = 0, sum2 = 0;
 
     for (let eachElement of arrayOfNumbers) // iterates through the array and calculates its sum
@@ -56,6 +56,15 @@ function conditionalForOfLoopPractice() {
     console.log("The sum2 of each element is: ", sum2)
 }
 
+function conditionalForInPractice() {
+    let sum = 0;
+    for (let eachElement in arrayOfNumbers)
+        sum += eachElement;
+
+    console.log("Therefore, the for in loop calculates the sum =", sum)
+}
+
 conditionalIfPractice();
 conditionalSwitchPractice();
 conditionalForOfLoopPractice();
+conditionalForInPractice();
