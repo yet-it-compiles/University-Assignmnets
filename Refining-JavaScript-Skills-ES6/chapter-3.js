@@ -83,19 +83,42 @@ function toBooleanConversion() {
 
 /**
  * Practices the concept of Symbols
+ *
+ * Symbols are special, unique [non-string] values that tend to be used to add unique property keys to an object.
+ * They are used as object properties that cannot be recreated, and allows for encapsulation/information hiding.
  */
 function symbolPractice() {
     const MY_KEY = Symbol();
     let symbol = Symbol('aSymbol');
     let symbol2 = Symbol('aSymbol');
+    let symbol3 = Symbol(123456);
 
     console.log(symbol === symbol2); // returns false, as symbols are always unique
+    console.log("Prints to console the first symbol: " + symbol.toString());
+    console.log("Prints to console the third symbol: " + symbol3.toString());
 
     // Possible Use Case
     let object = {};
     object[MY_KEY] = 123;
 
+
     console.log(object[MY_KEY]); // prints 123
+}
+
+/**
+ * Simple module which overviews object equality
+ *
+ * Objects are passed by reference
+ */
+function objectEquality() {
+    let obj1 = {x: 1}, obj2 = {x: 1};
+
+    console.log(obj1 === obj2) // prints false as objects are never equal
+
+    let a;
+
+    console.log("This is undefined: " + a)
+
 }
 
 printsSpecialNumbers();
@@ -107,3 +130,4 @@ printStrings();
 stringComparison();
 toBooleanConversion()
 symbolPractice()
+objectEquality()
