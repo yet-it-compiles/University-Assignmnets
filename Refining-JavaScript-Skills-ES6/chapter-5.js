@@ -8,7 +8,7 @@ let username = "unknown";
  * Simple function which shows if\else
  */
 function conditionalIfPractice() {
-    console.log("Username evaluation: ", !username)
+    console.log("\nUsername evaluation: ", !username)
     if (!username) // If username is null, undefined, false, 0, "", or NaN
         console.log(username);
     else
@@ -21,7 +21,7 @@ function conditionalIfPractice() {
 function conditionalSwitchPractice() {
     switch (username) {
         case "bmxfreestyle":
-            console.log("This is the correct username! Welcome.");
+            console.log("\nThis is the correct username! Welcome.");
             break;
         case "unknown":
             return "Who are you?"
@@ -50,21 +50,36 @@ function conditionalForOfLoopPractice() {
 
     for (let [eachKey, eachValue] of Object.entries(dictOfNumbers)) // iterates through the array and returns key/value
         // pairs
-        console.log("Here are the keys: ", eachKey, " Here are each value", eachValue)
+        console.log("\nHere are the keys: ", eachKey, " Here are each value", eachValue)
 
     console.log("The sum of each element is: ", sum1)
     console.log("The sum2 of each element is: ", sum2)
 }
+
+conditionalForInPractice();
+console.log("\nShows that a function definition can be called before the actual function has been defined")
 
 function conditionalForInPractice() {
     let sum = 0;
     for (let eachElement in arrayOfNumbers)
         sum += eachElement;
 
-    console.log("Therefore, the for in loop calculates the sum =", sum)
+    console.log("\nTherefore, the for in loop calculates the sum =", sum)
 }
+
+/**
+ *
+ */
+export function practiceImportExport() {
+     return "Full Stack Developer"
+}
+
+let name = "Yet-it-compiles";
+
+export {name};
+
+
 
 conditionalIfPractice();
 conditionalSwitchPractice();
 conditionalForOfLoopPractice();
-conditionalForInPractice();
