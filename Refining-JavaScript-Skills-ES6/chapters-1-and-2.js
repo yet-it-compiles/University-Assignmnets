@@ -1,5 +1,6 @@
 /**
- * Simple module which practices the concepts of the first two chapters of the definitive JS guide.
+ * A simple module which practices the concepts of each section in Chapter 1 & 2 of David Flanagan's:
+ * JavaScript - The Definitive Guide
  */
 
 // Declares variables
