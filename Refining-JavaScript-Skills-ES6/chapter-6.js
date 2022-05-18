@@ -42,11 +42,6 @@ function objectEmpty() {
     console.log("\nObject with Object.prototype: ", object)
 }
 
-objectWithParams();
-objectWithNull();
-objectEmpty();
-objectPractice();
-
 function objectPractice() {
     let object = {};
 
@@ -64,6 +59,31 @@ function objectPractice() {
     }
 }
 
-function printObjectProperties() {
-
+/**
+ * It returns true if the object has an own property or an
+ * inherited property by that name:
+ */
+function containsPropertyName() {
+    console.log("\nThe object: ", testingObject)
+    console.log("Checks to see if property name exists ", "x" in testingObject)
+    console.log("Checks to see if property name exists ", "y" in testingObject)
+    console.log("Checks to see if property name exists ", "toString" in testingObject)
 }
+
+/**
+ *
+ */
+function hasProperty(){
+    let testingObject2 = {x: 1};
+
+    console.log("\nThe object: ", testingObject2)
+    console.log("Checks to see if object has the property ", testingObject2.hasOwnProperty("x"))
+    console.log("Checks to see if object has the property ", testingObject2.hasOwnProperty("y"))
+}
+
+objectWithParams();
+objectWithNull();
+objectEmpty();
+objectPractice();
+containsPropertyName();
+hasProperty();
