@@ -78,8 +78,6 @@ let name = "Yet-it-compiles";
 
 export {name};
 
-
-
 conditionalIfPractice();
 conditionalSwitchPractice();
 conditionalForOfLoopPractice();
