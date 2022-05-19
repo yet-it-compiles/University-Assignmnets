@@ -64,7 +64,8 @@ function objectPractice() {
  * inherited property by that name:
  */
 function containsPropertyName() {
-    console.log("\nThe object: ", testingObject)
+    let testingObject = {x:1}
+    console.log("\nThe object: " + testingObject)
     console.log("Checks to see if property name exists ", "x" in testingObject)
     console.log("Checks to see if property name exists ", "y" in testingObject)
     console.log("Checks to see if property name exists ", "toString" in testingObject)
