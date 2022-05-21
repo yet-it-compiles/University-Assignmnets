@@ -5,7 +5,7 @@ const welcomeInformation = {
     introMessage: "This is my first React development module"
 };
 
-const list = [
+const listToIterateThrough = [
     {
         title: 'React',
         url: 'https://reactjs.org/',
@@ -35,23 +35,27 @@ function App() {
             <input id="search" type="text"/>
             <hr/>
 
-            <ul>
-                {list.map(function (item) {
-                    return (
-                        <li key={item.objectID}>
-                      <span>
-                          <a href={item.url}>{item.title}</a>
-                      </span>
-
-                            <span>{item.author}</span>
-                            <span>{item.num_comments}</span>
-                            <span>{item.points}</span>
-                        </li>
-                    );
-                })}
-            </ul>
+            <List/>
         </div>
     );
 }
 
+function List() {
+    return (
+        <ul>
+            {listToIterateThrough.map(function (item) {
+                return (
+                    <li key={item.objectID}>
+<span>
+<a href={item.url}>{item.title}</a>
+</span>
+                        <span>{item.author}</span>
+                        <span>{item.num_comments}</span>
+                        <span>{item.points}</span>
+                    </li>
+                );
+            })}
+        </ul>
+    );
+}
 export default App;
