@@ -24,8 +24,7 @@ const listToIterateThrough = [
     },
 ];
 
-const App = () => {
-    return (
+const App = () => (
         <div>
             <h1>{welcomeInformation.greeting}</h1>
             <p>{welcomeInformation.introMessage}</p>
@@ -39,19 +38,15 @@ const App = () => {
             <List/>
         </div>
     );
-}
 
-const Search = () => {
-    return (
+const Search = () => (
         <div>
             <label htmlFor="search">Search: </label>
             <input id="search" type="text"/>
         </div>
     );
-}
 
-const List = () => {
-    return (
+const List = () => (
         <ul>
             {listToIterateThrough.map(function (item) {
                 return (
@@ -66,8 +61,7 @@ const List = () => {
                 );
             })}
         </ul>
-    )
-}
+    );
 
 
 export default App;
