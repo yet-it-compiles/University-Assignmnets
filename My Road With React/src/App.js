@@ -24,31 +24,41 @@ const listToIterateThrough = [
     },
 ];
 
-function App() {
-
+const App = () => {
     return (
         <div>
             <h1>{welcomeInformation.greeting}</h1>
             <p>{welcomeInformation.introMessage}</p>
 
-            <label htmlFor="search">Search: </label>
-            <input id="search" type="text"/>
+            <Search/>
+
             <hr/>
+
+            <List/>
 
             <List/>
         </div>
     );
 }
 
-function List() {
+const Search = () => {
+    return (
+        <div>
+            <label htmlFor="search">Search: </label>
+            <input id="search" type="text"/>
+        </div>
+    );
+}
+
+const List = () => {
     return (
         <ul>
             {listToIterateThrough.map(function (item) {
                 return (
                     <li key={item.objectID}>
-<span>
-<a href={item.url}>{item.title}</a>
-</span>
+                        <span>
+                        <a href={item.url}>{item.title}</a>
+                        </span>
                         <span>{item.author}</span>
                         <span>{item.num_comments}</span>
                         <span>{item.points}</span>
@@ -56,6 +66,8 @@ function List() {
                 );
             })}
         </ul>
-    );
+    )
 }
+
+
 export default App;
