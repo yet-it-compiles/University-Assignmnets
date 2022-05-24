@@ -72,7 +72,7 @@ function containsPropertyName() {
 }
 
 /**
- *
+ * Simple function which showcases how to use the hasOwnProperty methods
  */
 function hasProperty(){
     let testingObject2 = {x: 1};
@@ -88,3 +88,12 @@ objectEmpty();
 objectPractice();
 containsPropertyName();
 hasProperty();
+
+let personObject = {
+    firstName: "Yet",
+    middleName: "Unsworth",
+    lastName: "compiles",
+    toString: function() {return `${this.firstName}-${this.middleName}-${this.lastName}`},
+};
+
+console.log(personObject.toString())
